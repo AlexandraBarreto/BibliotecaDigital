@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Administrador</title>
+    <div id="app">
+        <form action="/agregar" method="post">
+            <div id="admin-container">
+                <h2>Panel de Administrador</h2>
+
+                <label for="codigo">Código:</label>
+                <input type="text" name="cod" id="codigo" placeholder="Ingrese el código del libro"><br><br>
+
+                <label for="titulo">Título:</label>
+                <input type="text" name="tit" id="titulo" placeholder="Ingrese el título del libro"><br><br>
+
+                <label for="autor">Autor:</label>
+                <input type="text" name="aut" id="autor" placeholder="Ingrese el autor del libro"><br><br>
+
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" name="cant" id="cantidad" placeholder="Ingrese la cantidad de libros"><br><br>
+
+                <input type="submit" value="Agregar Libro"><br><br><br><br>
+
+
+            </div>
+        </form>
+        <form action="/buscar" method="post">
+            <div id="admin">
+
+                <label for="buscarCodigo">Buscar por Código:</label>
+                <input type="text" name="busc" id="buscarCodigo"
+                    placeholder="Ingrese el código del libro a buscar"><br><br>
+                <input type="submit" value="Buscar Libro">
+            </div>
+        </form>
+    </div>
+</head>
+
+<body>
+
+</body>
+
+</html>
